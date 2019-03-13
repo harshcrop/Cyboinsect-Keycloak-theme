@@ -1,0 +1,288 @@
+body, html {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow: hidden;
+    min-height: 0;
+    font-size: 14px;
+    color:rgba(0,0,0,.87);
+    margin:0;
+    height: 100%;
+  }
+  body {
+    margin: 0
+  }
+  
+  .row-padding {
+    padding: 0% 18% 0% 18%
+  }
+  
+  .input-email {
+    border: 1px solid #a7a0b3;
+    width: 355px !important; 
+    border-radius: 2px;
+  }
+  
+  @media only screen and (max-width: 1024px)
+    {
+      .input-email{
+        width: 295px !important;
+      }
+  
+    }
+  
+  .img-padding {
+    padding-top: 6px;
+    margin-top: 10px;
+    margin-bottom: -5px;
+  }
+  
+  .login-password {
+    border: 1px solid #a7a0b3;
+    margin-right: -4px;
+    border-radius: 2px;
+  }
+  
+  .password-visibility {
+    margin-left: 0px;
+    padding-top: 14px !important;
+    padding-bottom: 14px !important;
+    /* margin-top: -9px; */
+    padding: 5px;
+    margin: 10;
+    padding: 10p;
+    /* border: burlywood; */
+    border: 1px solid #a7a0b3;
+    border-left: 0px;  
+    border-radius: 2px;
+  }
+  
+  .login-content {
+    background-size:cover;
+    background-position:center;
+    min-height: 100%;
+    min-width: 320px;
+    display:flex;
+    justify-content:center;
+    flex-direction:column
+  }
+  .login-content .box {
+    width: 1127px;
+    height: 745px;
+    border-radius: 26px;
+    background-color: #ffffff;
+    box-shadow: 3px 3px 18px 2px rgba(0, 0, 0, 0.16); 
+    margin: auto;
+    
+  }
+    @media only screen and (max-width: 1024px)
+    {
+      .login-content .box{
+        width: 945px;
+        height: 690px;
+      }
+  
+    }
+  .login-content .box .box-row {
+    display: flex;
+    
+    height: 100%;
+  }
+  .login-content .box .box-container {
+    width:50%;
+    /* padding-left: 32px; */
+  }
+  .login-content .box .left-color {
+    
+    background-color: #F0E3F4;
+    border-radius: 26px 0 0 26px;
+  }
+  .login-content .box .span-text {
+    
+    color:#483A61;
+    font-size: 36px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+  }
+  
+  .login-content .box .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+  }
+  
+  @media only screen and (max-width: 1024px)
+  {
+    .login-content .box .logo {
+      margin-top: 50px;
+      }
+  }
+  
+  
+  .login-content .box .application-name {
+    width: 270px;
+    font-family: Muli;
+    font-size: 24px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.83;
+    letter-spacing: -0.4px;
+    text-align: left;
+    color: #1976d2;
+    margin-left: 32px;
+    margin-top: 40px;
+  }
+  .login-content .box .form {
+    /* margin-top: 35px; */
+    margin-bottom: -55px;
+  }
+  .login-content .box .login-field {
+    width: 320px;
+    height: 42px;
+    font-family: 'Nunito';
+    font-size: 14px;
+    font-weight: normal;
+    background-color: #fff;
+    margin-bottom: 5px;
+  }
+  @media only screen and (max-width: 1024px)
+  {
+    .login-content .box .login-field  {
+      width: 260px;
+      height: 42px;
+      }
+  }
+  .login-content .box input[type="text"]:focus, .login-content .box input[type="password"]:focus {
+    border-bottom: 2px solid #ff9800;
+  }
+  .login-content .box input[type="text"]:-webkit-autofill, .login-content .box input[type="password"]:-webkit-autofill
+  {
+    box-shadow: 0 0 0px 1000px white inset;
+  }
+  .login-content .box .submit{
+    width: 109px;
+    height: 36px;
+    border-radius: 17px;
+    color: #ffffff;
+    background-color: #483A61;
+    font-size: 17px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    border-style: none;
+    margin-top: 35px;
+    margin-bottom: 60px;
+  }
+  /* .login-content .box .visibility {
+    position: relative;
+    left: 296px;
+    top: 20px;
+    width: 24px;
+    height: 24px;
+    opacity: 0.54;
+    border: none;
+  } */
+  
+  .login-content .box .copyright {
+    min-width: 320px;
+    text-align: center;
+    font-size: 14px;
+    opacity: .54;
+    position: relative;
+    top: 50px;
+  }
+  .message-text {
+  
+    color: red;
+    position: absolute;
+    right: 25% !important;
+    top: 40%;
+  }
+  .identity-providers {
+    width: 270px;
+    font-family: Muli;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.83;
+    letter-spacing: -0.4px;
+    text-align: left;
+    color: #1976d2;
+    margin-left: 32px;
+    margin-top: 20px;
+  }
+  
+  .login-content .box .social-link-style {
+    width: 320px;
+    height: 36px;
+    border-radius: 2px;
+    background-color: var(--white);
+    font-family: Muli;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ff9800;
+    border-style: solid;
+    border-color: #ff9800;
+    margin-top: 0px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .login-content .box .para {
+    font-family: Muli;
+    font-size: 14px;
+    margin-left: 30px;
+  }
+  
+  a:-webkit-any-link {
+    text-decoration: none;
+  }
+  
+  .email-label{
+    text-align: left;
+    font-family: 'Nunito';
+    font-size: 16px;
+  }
+  
+  .password-label{
+    text-align: left;
+    font-family: 'Nunito';
+    font-size: 16px;
+  }
+  
+  .sign-img{
+    margin-top: 100px;
+    margin-left:45px;
+  }
+  @media only screen and (max-width: 1024px)
+  {
+    .sign-img {
+      height: 400px;
+      margin-left: 40px;
+      }
+  }
+  
+.password-span{
+    padding: 1% 18% 0% 18%;
+    font-size: 12px;
+    font-family: 'Nunito';
+}  
+
+.signup-checkbox{
+    text-align: center;
+    margin-top: 15px;   
+    font-family: 'Nunito';
+}
