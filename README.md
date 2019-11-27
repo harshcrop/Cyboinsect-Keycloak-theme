@@ -62,7 +62,7 @@ theme as [illustrated](./screen-captures/login.png).  Click *Save*.
 3. Login to a page in the *Alfresco* realm that requires authentication (e.g. http://localhost/auth/realms/cyboinsect/account) and
 you should see a form like this.  
 
-![](screen-captures/register.png)
+![](screen-captures/login.png)
 
 
 
