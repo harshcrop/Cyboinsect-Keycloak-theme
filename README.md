@@ -1,3 +1,5 @@
+<img src="screen-captures/logo.png" width="64">
+
 # Cyboinsect Keycloak Theme
 
 ## Overview
