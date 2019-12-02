@@ -19,24 +19,10 @@ The following themes can be replaced.
 This projects contains a theme that can be used to replace the login theme to provide
 an experience that is consistent with Cyboisect.  
 
-Several approaches are possible.  
-1. **Extend the existing themes**.  With this approach, a copy of the default theme is made and selective
-edits are made to the theme.  For example, different style sheets can be
-used but otherwise the layout provide by Keycloak could stay the same.
-2. **Use ADF**.  With this approach, the ADF component is used directly, effectively making Keycloak 
-an ADF app.
-3. **Custom login page**.  With this approach, a page is provided that uses the same approved Alfresco
-styles.
-
-This project currently uses the approach of a custom login page (option #3).
-
 ## Implementation
 
 Since Keycloak supports Freemarker, [a template file](./theme/login/login.ftl) is provided along with 
 [css styles](./theme/login/resources/css/login.css) and [images](./theme/login/resources/img).
-
-The project also includes improvements to the translated messages for the languages supported by Alfresco.
-
 
 ### Deployment to a standalone Keycloak server
 1. After installing Keycloak, navigate to the themes directory as in e.g.
@@ -59,7 +45,7 @@ http://localhost/auth/admin/master/console/#/realms/cyboinsect
 ```
 2. Choose the *Cyboinsect*
 theme as [illustrated](./screen-captures/login.png).  Click *Save*.
-3. Login to a page in the *Alfresco* realm that requires authentication (e.g. http://localhost/auth/realms/cyboinsect/account) and
+3. Login to a page in the *Cyboinsect* realm that requires authentication (e.g. http://localhost/auth/realms/cyboinsect/account) and
 you should see a form like this.  
 
 ![](screen-captures/login.png)
